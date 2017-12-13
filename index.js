@@ -13,5 +13,6 @@ function johnLennonFacts(factsArr) {
         console.log(factsArr[i]);
         i++
     }
+    
     return factsArr
 }
