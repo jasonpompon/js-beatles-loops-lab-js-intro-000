@@ -13,6 +13,16 @@ function johnLennonFacts(factsArr) {
         factsArr[i] = `${factsArr[i]}!!!`
         i++
     }
-    
+
     return factsArr
+}
+
+function iLoveTheBeatles(n) {
+    let beatlesStringsArr = [];
+    const stringToPrint = "I love the Beatles!";
+    
+    
+    do {
+        beatlesStringsArr.push(stringToPrint)
+    } while (n < 15)
 }
